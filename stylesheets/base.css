@@ -38,3 +38,10 @@ html {
   font-family: --extra-large;
   src: url(/1_spotify_clone/fonts/CircularSpTitle-Black.woff2) format("woff2");
 }
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--black-dark);
+  padding: 1rem;
+}
