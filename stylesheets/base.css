@@ -17,8 +17,24 @@ html {
   --black-light-v3: #242424;
   --grey: #b3b3b3;
   --grey-description: #a7a7a7;
-  --grey-light-hover: #B9B9B9;
+  --grey-light-hover: #b9b9b9;
   --grey-light-hover: #c1c1c1;
   --white: #fff;
-  --green-accent: #1ED760;
+  --green-accent: #1ed760;
+}
+
+/* font variables */
+@font-face {
+  font-family: --bold;
+  src: url(/1_spotify_clone/fonts/CircularSpTitle-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: --normal;
+  src: url(/1_spotify_clone/fonts/CircularSp-Book.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: --extra-large;
+  src: url(/1_spotify_clone/fonts/CircularSpTitle-Black.woff2) format("woff2");
 }
