@@ -1,7 +1,24 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  /* color variables */
+  --black-dark: #000;
+  --black-light: #121212;
+  --black-light-v1: #171717;
+  --black-light-v2: #212121;
+  --black-light-v3: #242424;
+  --grey: #b3b3b3;
+  --grey-description: #a7a7a7;
+  --grey-light-hover: #B9B9B9;
+  --grey-light-hover: #c1c1c1;
+  --white: #fff;
+  --green-accent: #1ED760;
 }
